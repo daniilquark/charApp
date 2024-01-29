@@ -3,12 +3,12 @@ const fs = require("fs");
 //module.exports = {
 //    user: "candidate",
 //    password: "62I8anq3cFq5GYh2u4Lh",
-//    host: "rc1br21uoagjy1t7k77h.mdb.yandexcloud.net",
-//    port: 5432,
+//    host: "rc1b-r21uoagjy1t7k77h.mdb.yandexcloud.net",
+//    port: 6432,
 //    database: "db1",
 //    ssl: {
 //      rejectUnauthorized: true,
-//      ca: fs.readFileSync("/home/daniil/.postgresql/root.crt").toString(),
+//      ca: fs.readFileSync("./root.crt").toString(),
 //    },
 //  };
 
@@ -20,6 +20,6 @@ module.exports = {
   database: "mybase",
   ssl: {
     rejectUnauthorized: false,
-    ca: fs.readFileSync("/home/daniil/.postgresql/root.crt").toString(),
+    ca: fs.readFileSync("./root.crt").toString(),
   },
 };
